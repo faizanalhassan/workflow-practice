@@ -1,3 +1,8 @@
-removeable1*
+removeable1.txt
 removeable2.txt
 removables
+removeable1 copy 3.txt
+removeable1 copy 4.txt
+removeable1 copy 5.txt
+removeable1 copy.txt
+exclude-files.txt
