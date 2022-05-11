@@ -1,0 +1,3 @@
+removeable1*
+removeable2.txt
+removables
