@@ -35,7 +35,7 @@ jobs:
           sed $'s/\r$//' ./exclude-files.txt > ./exclude-files.unix.txt
           echo Files before removing exclude list
           ls
-          while IFS= read -r line; do rm -f "$line"; echo "removed $line"; done < exclude-files.unix.txt
+          while IFS= read -r line; do rm -rf "$line"; echo "removed $line"; done < exclude-files.unix.txt
           echo Files after removing exclude list
           ls
           
