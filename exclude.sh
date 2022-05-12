@@ -7,3 +7,5 @@ else
     echo exclude file does not found.
 fi
 rm -- "$0"
+echo Files to be uploaded are:
+ls

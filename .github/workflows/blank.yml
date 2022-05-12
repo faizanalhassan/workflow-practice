@@ -33,6 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           . ./exclude.sh
-          echo Files to be uploaded are:
-          ls
           
