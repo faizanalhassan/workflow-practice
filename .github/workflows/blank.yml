@@ -33,5 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           . ./exclude.sh
-          rm exclude.sh
           
