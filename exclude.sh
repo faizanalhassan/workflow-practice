@@ -6,6 +6,6 @@ if [ -f exclude-items.txt ]; then
 else
     echo exclude file does not found.
 fi
-rm -- "$0"
+rm -- exclude.sh
 echo Files to be uploaded are:
 ls
